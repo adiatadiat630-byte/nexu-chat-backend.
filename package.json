@@ -1,0 +1,17 @@
+{
+  "name": "nexu-chat-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "cloudinary": "^2.7.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "firebase-admin": "^13.4.0",
+    "helmet": "^8.1.0",
+    "multer": "^2.0.2"
+  }
+}
